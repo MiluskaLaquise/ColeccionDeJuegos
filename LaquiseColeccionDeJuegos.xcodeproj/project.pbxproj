@@ -14,6 +14,9 @@
 		4B15B2FC2A15305A004FD180 /* LaquiseColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B15B2FA2A15305A004FD180 /* LaquiseColeccionDeJuegos.xcdatamodeld */; };
 		4B15B2FE2A15305A004FD180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B15B2FD2A15305A004FD180 /* Assets.xcassets */; };
 		4B15B3012A15305A004FD180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B15B2FF2A15305A004FD180 /* LaunchScreen.storyboard */; };
+		4BA9B7312A15443B00037935 /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA9B7302A15443B00037935 /* JuegosViewController.swift */; };
+		4BA9B7332A1547A300037935 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA9B7322A1547A300037935 /* maxresdefault.jpg */; };
+		4BA9B7352A15486600037935 /* macqueen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA9B7342A15486600037935 /* macqueen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		4B15B2FD2A15305A004FD180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B15B3002A15305A004FD180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B15B3022A15305A004FD180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA9B7302A15443B00037935 /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
+		4BA9B7322A1547A300037935 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		4BA9B7342A15486600037935 /* macqueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macqueen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +68,13 @@
 				4B15B2F32A15305A004FD180 /* SceneDelegate.swift */,
 				4B15B2F52A15305A004FD180 /* ViewController.swift */,
 				4B15B2F72A15305A004FD180 /* Main.storyboard */,
+				4BA9B7302A15443B00037935 /* JuegosViewController.swift */,
+				4BA9B7342A15486600037935 /* macqueen.png */,
 				4B15B2FD2A15305A004FD180 /* Assets.xcassets */,
 				4B15B2FF2A15305A004FD180 /* LaunchScreen.storyboard */,
 				4B15B3022A15305A004FD180 /* Info.plist */,
 				4B15B2FA2A15305A004FD180 /* LaquiseColeccionDeJuegos.xcdatamodeld */,
+				4BA9B7322A1547A300037935 /* maxresdefault.jpg */,
 			);
 			path = LaquiseColeccionDeJuegos;
 			sourceTree = "<group>";
@@ -128,7 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA9B7352A15486600037935 /* macqueen.png in Resources */,
 				4B15B3012A15305A004FD180 /* LaunchScreen.storyboard in Resources */,
+				4BA9B7332A1547A300037935 /* maxresdefault.jpg in Resources */,
 				4B15B2FE2A15305A004FD180 /* Assets.xcassets in Resources */,
 				4B15B2F92A15305A004FD180 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA9B7312A15443B00037935 /* JuegosViewController.swift in Sources */,
 				4B15B2F62A15305A004FD180 /* ViewController.swift in Sources */,
 				4B15B2F22A15305A004FD180 /* AppDelegate.swift in Sources */,
 				4B15B2FC2A15305A004FD180 /* LaquiseColeccionDeJuegos.xcdatamodeld in Sources */,
